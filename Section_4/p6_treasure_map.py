@@ -11,11 +11,8 @@ vertical = int(position[1])
 selected_row = map[vertical - 1]
 selected_row[horizontal - 1] = "X"
 
+# Alternate solution
+# map[vertical-1][horizontal-1] = "X"
+#
+
 print(f"{row1}\n{row2}\n{row3}")
-
-#col = int(position) // 10   # returns int
-#row = int(position) % 10
-
-#map[row-1][col-1] = "X"
-
-#print(f"{row1}\n{row2}\n{row3}")
